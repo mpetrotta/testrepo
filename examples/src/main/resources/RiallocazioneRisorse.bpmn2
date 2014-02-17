@@ -161,7 +161,7 @@
         <dc:Bounds height="80.0" width="100.0" x="315.0" y="195.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_kOc6-5ezEeOLs_U7dylj0Q" bpmnElement="_C7A1E334-4674-48D9-AAD2-369C2AD088EC">
-        <dc:Bounds height="28.0" width="28.0" x="701.0" y="181.0"/>
+        <dc:Bounds height="28.0" width="28.0" x="700.0" y="166.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_kOdh85ezEeOLs_U7dylj0Q" bpmnElement="_8419D90E-4129-462A-8A09-330ABF5E9C8E">
         <dc:Bounds height="80.0" width="100.0" x="570.0" y="140.0"/>
@@ -198,8 +198,8 @@
       <bpmndi:BPMNEdge id="_kOdh9ZezEeOLs_U7dylj0Q" bpmnElement="_B6AC6116-37A5-434C-B9FC-28ECCF5D12CA" sourceElement="_kOdh85ezEeOLs_U7dylj0Q" targetElement="_kOc6-5ezEeOLs_U7dylj0Q">
         <di:waypoint xsi:type="dc:Point" x="670.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="683.0" y="180.0"/>
-        <di:waypoint xsi:type="dc:Point" x="683.0" y="195.0"/>
-        <di:waypoint xsi:type="dc:Point" x="701.0" y="195.0"/>
+        <di:waypoint xsi:type="dc:Point" x="683.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="700.0" y="180.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="_kOdh9pezEeOLs_U7dylj0Q" bpmnElement="_6C1488A7-6E07-4859-8D6B-FA815E46E75E" sourceElement="_kOc6-ZezEeOLs_U7dylj0Q" targetElement="_kOdh-ZezEeOLs_U7dylj0Q">
         <di:waypoint xsi:type="dc:Point" x="365.0" y="130.0"/>
