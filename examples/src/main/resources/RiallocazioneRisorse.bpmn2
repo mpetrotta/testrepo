@@ -121,9 +121,6 @@
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
-    <bpmn2:endEvent id="_C7A1E334-4674-48D9-AAD2-369C2AD088EC" drools:bgcolor="#ff6347" drools:selectable="true" name="">
-      <bpmn2:incoming>bpmn20:_B6AC6116-37A5-434C-B9FC-28ECCF5D12CA</bpmn2:incoming>
-    </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_734A752F-8FEC-45A8-BBB1-1E4F2424BF1C" drools:priority="1" drools:bgcolor="#000000" drools:selectable="true" name="" sourceRef="_300DD80E-06AE-473A-92AA-8E5898F2E23F" targetRef="_E1B8A96A-0D3F-4FAF-9ED7-B4179E216D5A"/>
     <bpmn2:sequenceFlow id="_A12B3D22-B6C0-48E3-90B0-E729BF364404" drools:priority="1" drools:bgcolor="#000000" drools:selectable="true" name="" sourceRef="_E1B8A96A-0D3F-4FAF-9ED7-B4179E216D5A" targetRef="_ACD0C4F6-34E6-455D-ADD4-8EE6B04858C8"/>
     <bpmn2:sequenceFlow id="_5323E3D7-E66F-409B-B5A7-E1E1B1EC1926" drools:priority="1" drools:bgcolor="#000000" drools:selectable="true" name="" sourceRef="_E1B8A96A-0D3F-4FAF-9ED7-B4179E216D5A" targetRef="_E990F872-BEEE-483A-809F-2783FDEEB7FA"/>
@@ -145,6 +142,9 @@
       <bpmn2:incoming>bpmn20:_6C1488A7-6E07-4859-8D6B-FA815E46E75E</bpmn2:incoming>
       <bpmn2:outgoing>bpmn20:_67A5D9D9-E611-4944-9DA1-4D16086C3677</bpmn2:outgoing>
     </bpmn2:parallelGateway>
+    <bpmn2:endEvent id="_C7A1E334-4674-48D9-AAD2-369C2AD088EC" drools:bgcolor="#ff6347" drools:selectable="true" name="">
+      <bpmn2:incoming>bpmn20:_B6AC6116-37A5-434C-B9FC-28ECCF5D12CA</bpmn2:incoming>
+    </bpmn2:endEvent>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_kOc69JezEeOLs_U7dylj0Q">
     <bpmndi:BPMNPlane id="_kOc69ZezEeOLs_U7dylj0Q" bpmnElement="examples.RiallocazioneRisorse">
@@ -161,7 +161,7 @@
         <dc:Bounds height="80.0" width="100.0" x="315.0" y="195.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_kOc6-5ezEeOLs_U7dylj0Q" bpmnElement="_C7A1E334-4674-48D9-AAD2-369C2AD088EC">
-        <dc:Bounds height="28.0" width="28.0" x="701.0" y="162.0"/>
+        <dc:Bounds height="28.0" width="28.0" x="701.0" y="181.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_kOdh85ezEeOLs_U7dylj0Q" bpmnElement="_8419D90E-4129-462A-8A09-330ABF5E9C8E">
         <dc:Bounds height="80.0" width="100.0" x="570.0" y="140.0"/>
@@ -196,8 +196,10 @@
         <di:waypoint xsi:type="dc:Point" x="500.0" y="180.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="_kOdh9ZezEeOLs_U7dylj0Q" bpmnElement="_B6AC6116-37A5-434C-B9FC-28ECCF5D12CA" sourceElement="_kOdh85ezEeOLs_U7dylj0Q" targetElement="_kOc6-5ezEeOLs_U7dylj0Q">
-        <di:waypoint xsi:type="dc:Point" x="620.0" y="180.0"/>
-        <di:waypoint xsi:type="dc:Point" x="715.0" y="176.0"/>
+        <di:waypoint xsi:type="dc:Point" x="670.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="683.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="683.0" y="195.0"/>
+        <di:waypoint xsi:type="dc:Point" x="701.0" y="195.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="_kOdh9pezEeOLs_U7dylj0Q" bpmnElement="_6C1488A7-6E07-4859-8D6B-FA815E46E75E" sourceElement="_kOc6-ZezEeOLs_U7dylj0Q" targetElement="_kOdh-ZezEeOLs_U7dylj0Q">
         <di:waypoint xsi:type="dc:Point" x="365.0" y="130.0"/>
