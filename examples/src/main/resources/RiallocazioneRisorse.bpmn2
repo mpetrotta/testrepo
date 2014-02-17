@@ -7,7 +7,7 @@
   <bpmn2:itemDefinition id="__ACD0C4F6-34E6-455D-ADD4-8EE6B04858C8_richiesta_OutputItem" structureRef="org.jbpm.examples.Richiesta"/>
   <bpmn2:itemDefinition id="__E990F872-BEEE-483A-809F-2783FDEEB7FA__richiestaInputItem" structureRef="org.jbpm.examples.Richiesta"/>
   <bpmn2:itemDefinition id="__E990F872-BEEE-483A-809F-2783FDEEB7FA_richiesta_OutputItem" structureRef="org.jbpm.examples.Richiesta"/>
-  <bpmn2:process id="examples.example1" drools:packageName="org.jbpm" drools:version="1.0" name="example1" isExecutable="true">
+  <bpmn2:process id="examples.RiallocazioneRisorse" drools:packageName="org.jbpm" drools:version="1.0" name="RiallocazioneRisorse" isExecutable="true">
     <bpmn2:property id="richiesta" itemSubjectRef="_richiestaItem"/>
     <bpmn2:startEvent id="processStartEvent" drools:bgcolor="#9acd32" drools:selectable="true" name="">
       <bpmn2:outgoing>_4706A8D6-BBFD-4C82-826F-BFFB4D25910C</bpmn2:outgoing>
@@ -147,7 +147,7 @@
     </bpmn2:parallelGateway>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_kOc69JezEeOLs_U7dylj0Q">
-    <bpmndi:BPMNPlane id="_kOc69ZezEeOLs_U7dylj0Q" bpmnElement="examples.example1">
+    <bpmndi:BPMNPlane id="_kOc69ZezEeOLs_U7dylj0Q" bpmnElement="examples.RiallocazioneRisorse">
       <bpmndi:BPMNShape id="_kOc69pezEeOLs_U7dylj0Q" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="30.0" y="165.0"/>
       </bpmndi:BPMNShape>

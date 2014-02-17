@@ -211,7 +211,7 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: example1.HrTask
+		User Task Form: RiallocazioneRisorse.HrTask
 	</div>
 	<div id="content">
 	    <input type="hidden" name="taskId" value="${task.id}"/>

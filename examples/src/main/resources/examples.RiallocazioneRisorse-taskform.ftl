@@ -200,7 +200,7 @@
 </style>
 <div id="container">
 	<div id="header">
-		New Process Instance: /examples/src/main/resources.example1
+		New Process Instance: /examples/src/main/resources.RiallocazioneRisorse
 	</div>
 	<div id="content">
 	    <input type="hidden" name="processId" value="${process.id}"/>

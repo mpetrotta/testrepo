@@ -1,7 +1,7 @@
 
 <form id="1984379999">
 <property name="subject" value=""/>
-<property name="name" value="examples.example1-taskform.form"/>
+<property name="name" value="examples.RiallocazioneRisorse-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
 <field position="0" name="richiesta_requestName" type="InputText" id="2039441416">
